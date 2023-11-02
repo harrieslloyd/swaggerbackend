@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Upcoming Events</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        
+        <header>
+            <table>
+                <tr>
+                    <th class="navcol"><a href="/index.html">Home</a></th>
+                    <th class="navcol"><a href="/biography.html">Biography</a></th>
+                    <th><div id="hiddenlogo" class="hl hidden"></div></th>
+                    <th class="navcol"><a class="active" href="/upcomingEvents.html">Upcoming Events</a></th>
+                    <th class="navcol"><a href="/media.html">Media</a></th>
+                </tr>
+            </table>
+        </header>
+
+        <section class="titlesection">
+            <h1>Upcoming Events</h1>
+        </section>
+
+        <section class="mainsection last">
+            <table id="eventtable">
+            </table>
+        </section>
+
+        <input type="button" value="Add Row" onclick="altAddRow('eventtable', '2/2', 'fun times')" />  
+
+        <script src="/script.js" async defer type="module"></script>
+    </body>
+</html>
