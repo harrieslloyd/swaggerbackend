@@ -1,7 +1,11 @@
 const app = require('express')();
 
 app.get('/api', (req, res) => {
-  res.send(process.env.CLIENTSECRET)
+  res.send(`
+  {
+    "secret": "${process.env.CLIENTSECRET}"
+  }
+  `)
 });
 
 
