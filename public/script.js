@@ -3,7 +3,7 @@ async function getSecret() {
 
     return await result.text;
 }
-
+console.log(getSecret())
 const client_id = "2f380f8fc28b4ab68298d967fe13805d";
 const client_secret = "03bb954af29e4752beb6ea0cc98df454";
 const access_token = await getAccessToken(client_id, client_secret);
