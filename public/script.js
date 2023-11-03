@@ -1,7 +1,7 @@
 async function getSecret() {
     const result = await fetch('https://swagger.harrieslloyd.com/api', {});
 
-    return await result.text;
+    return await result;
 }
 console.log(await getSecret())
 
